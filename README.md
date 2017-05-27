@@ -14,8 +14,9 @@ It's inpsired by [GroundControl](https://github.com/mattt/GroundControl), and pr
 
 ## Client Code
 
-```objective-c
+```swift
 UserDefaults().registerDefaultsWithURL(url: URL(string:"https://theprogressapp.com/wtw/defaults.plist")!)```
+```
 
 ...or if you need callbacks for success/failure, and prefer not to listen for a `NSUserDefaultsDidChangeNotification`:
 
