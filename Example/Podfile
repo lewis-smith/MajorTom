@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MajorTom_Tests' do
+  pod 'MajorTom', :path => '../'
+  
+  
+end
