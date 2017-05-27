@@ -6,41 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		57614FBA301B70ECC202172D /* Pods_MajorTom_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01312172D8BD5DDC9D58682C /* Pods_MajorTom_Tests.framework */; };
-		F6E7F3D91ED97ABF00D7A242 /* MajorTom.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E7F3D81ED97ABF00D7A242 /* MajorTom.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		01312172D8BD5DDC9D58682C /* Pods_MajorTom_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MajorTom_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A22BF19CD64DE6D7FBC8E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* MajorTom_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MajorTom_Tests.xctest; path = "/Users/lewissmith/code/MajorTom/Example/build/Debug-iphoneos/MajorTom_Tests.xctest"; sourceTree = "<absolute>"; };
 		86131B8E24C6CB24003B9087 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A42FC7FF66F26B5018A91C6E /* Pods-MajorTom_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MajorTom_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MajorTom_Tests/Pods-MajorTom_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C50A5000086F04B870DD8424 /* MajorTom.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MajorTom.podspec; path = ../MajorTom.podspec; sourceTree = "<group>"; };
 		DAAF59C2030BE104248A0D0F /* Pods-MajorTom_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MajorTom_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MajorTom_Tests/Pods-MajorTom_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F6E7F3D81ED97ABF00D7A242 /* MajorTom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MajorTom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				57614FBA301B70ECC202172D /* Pods_MajorTom_Tests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				F6E7F3D71ED97AB200D7A242 /* Classes */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				F38FE378E6863952BC14B1F5 /* Pods */,
-				CF2F75C4FE4ACDD92621F99A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +33,6 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		CF2F75C4FE4ACDD92621F99A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				01312172D8BD5DDC9D58682C /* Pods_MajorTom_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		F38FE378E6863952BC14B1F5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -71,38 +42,7 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		F6E7F3D71ED97AB200D7A242 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				F6E7F3D81ED97ABF00D7A242 /* MajorTom.swift */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		607FACE41AFB9204008FA782 /* MajorTom_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MajorTom_Tests" */;
-			buildPhases = (
-				B2E3E272E9F3C65BB8BECB74 /* [CP] Check Pods Manifest.lock */,
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
-				4240AD8EFADCE5B5C7B2CE4F /* [CP] Embed Pods Frameworks */,
-				308329B7AF20E90E2D0B82C0 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MajorTom_Tests;
-			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* MajorTom_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
@@ -111,13 +51,6 @@
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = CocoaPods;
-				TargetAttributes = {
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
-						TestTargetID = 607FACCF1AFB9204008FA782;
-					};
-				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "MajorTom" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -132,79 +65,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACE41AFB9204008FA782 /* MajorTom_Tests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		607FACE31AFB9204008FA782 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		308329B7AF20E90E2D0B82C0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MajorTom_Tests/Pods-MajorTom_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4240AD8EFADCE5B5C7B2CE4F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MajorTom_Tests/Pods-MajorTom_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B2E3E272E9F3C65BB8BECB74 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		607FACE11AFB9204008FA782 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F6E7F3D91ED97ABF00D7A242 /* MajorTom.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		607FACED1AFB9204008FA782 /* Debug */ = {
@@ -294,42 +157,6 @@
 			};
 			name = Release;
 		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAAF59C2030BE104248A0D0F /* Pods-MajorTom_Tests.debug.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		607FACF41AFB9204008FA782 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A42FC7FF66F26B5018A91C6E /* Pods-MajorTom_Tests.release.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -338,15 +165,6 @@
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
 				607FACEE1AFB9204008FA782 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MajorTom_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

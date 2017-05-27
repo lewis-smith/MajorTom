@@ -13,7 +13,7 @@
 		714C41D4E12250FECD3CA3E09A0803BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		C4496FCA1C81F882665245C9222A9A4F /* Pods-MajorTom_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFF1A62DB84F498905AE284B639AB39 /* Pods-MajorTom_Tests-dummy.m */; };
 		DC1BE355823B4C19D054D436153F50EA /* MajorTom-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 364233B37457CAAD883654B3E5054B0E /* MajorTom-dummy.m */; };
-		DD25B0F581D206D26B779F467C172BBB /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8B3E47B5013FF2F97F9F4790F25467 /* ReplaceMe.swift */; };
+		F6E7F3DB1ED9919A00D7A242 /* MajorTom.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E7F3DA1ED9919A00D7A242 /* MajorTom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,26 +28,26 @@
 
 /* Begin PBXFileReference section */
 		02C4FD4871B93DFD4096B791E1A2EE58 /* Pods-MajorTom_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MajorTom_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		07AA0F6BE71631A41C3151B94EE9FF89 /* Pods-MajorTom_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MajorTom_Tests.modulemap"; sourceTree = "<group>"; };
+		07AA0F6BE71631A41C3151B94EE9FF89 /* Pods-MajorTom_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MajorTom_Tests.modulemap"; sourceTree = "<group>"; };
 		28630D9AD10E19E9A1904037BF970E8A /* Pods-MajorTom_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MajorTom_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2CE44468057EAA6D88C000819FC812EB /* MajorTom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MajorTom.framework; path = MajorTom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE44468057EAA6D88C000819FC812EB /* MajorTom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MajorTom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D932AA492CD9EA7E7AC8A1E336BF663 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		364233B37457CAAD883654B3E5054B0E /* MajorTom-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MajorTom-dummy.m"; sourceTree = "<group>"; };
 		3BBD0FC042175E181FE35ABEA6D9AA3A /* Pods-MajorTom_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MajorTom_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3C15B73CD14BE4183C79FF3A391F540E /* Pods-MajorTom_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MajorTom_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3F568538CFFE3C7B0BB9F301E92A8624 /* MajorTom.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MajorTom.modulemap; sourceTree = "<group>"; };
+		3F568538CFFE3C7B0BB9F301E92A8624 /* MajorTom.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MajorTom.modulemap; sourceTree = "<group>"; };
 		4FA82291D7A3993484DA5F3652146BF2 /* MajorTom-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MajorTom-prefix.pch"; sourceTree = "<group>"; };
-		5E8B3E47B5013FF2F97F9F4790F25467 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		80BE9CDA209B303E1E5F2D01D5864EBC /* Pods_MajorTom_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MajorTom_Tests.framework; path = "Pods-MajorTom_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80BE9CDA209B303E1E5F2D01D5864EBC /* Pods_MajorTom_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MajorTom_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85556E3D13AE5921C586112970B05946 /* Pods-MajorTom_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MajorTom_Tests-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A67636215A94D48BB005B4C90F8A63D6 /* MajorTom.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MajorTom.xcconfig; sourceTree = "<group>"; };
 		BAFF1A62DB84F498905AE284B639AB39 /* Pods-MajorTom_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MajorTom_Tests-dummy.m"; sourceTree = "<group>"; };
 		C23F971552A9EA5A455BCAAF452B86CA /* Pods-MajorTom_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MajorTom_Tests-umbrella.h"; sourceTree = "<group>"; };
 		EDBD189AFC5CD79F8B96E5F3CBEAB35C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F351A227F2C2AA81B91EDA546D467338 /* MajorTom-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MajorTom-umbrella.h"; sourceTree = "<group>"; };
 		F4C15FB0B4882728A9981A40D9117856 /* Pods-MajorTom_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MajorTom_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F6E7F3DA1ED9919A00D7A242 /* MajorTom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MajorTom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,6 @@
 			children = (
 				F978D9F1B1D59570D19DD6BF1D4E54C5 /* Classes */,
 			);
-			name = MajorTom;
 			path = MajorTom;
 			sourceTree = "<group>";
 		};
@@ -176,9 +175,8 @@
 		F978D9F1B1D59570D19DD6BF1D4E54C5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5E8B3E47B5013FF2F97F9F4790F25467 /* ReplaceMe.swift */,
+				F6E7F3DA1ED9919A00D7A242 /* MajorTom.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -279,8 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E7F3DB1ED9919A00D7A242 /* MajorTom.swift in Sources */,
 				DC1BE355823B4C19D054D436153F50EA /* MajorTom-dummy.m in Sources */,
-				DD25B0F581D206D26B779F467C172BBB /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
