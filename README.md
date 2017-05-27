@@ -22,10 +22,10 @@ UserDefaults().registerDefaultsWithURL(url: URL(string:"https://theprogressapp.c
 
 ```swift
 UserDefaults().registerDefaultsWithURL(url: URL(string:"https://theprogressapp.com/wtw/defaults.plist")!, success: { (response, dictionary) in
-print(response.debugDescription)
-print(dictionary.debugDescription)
+    print(response.debugDescription)
+    print(dictionary.debugDescription)
 }) { (response) in
-print(response.debugDescription)
+    print(response.debugDescription)
 }
 ```
 
@@ -40,13 +40,13 @@ require 'sinatra'
 require 'plist'
 
 get '/defaults.plist' do
-content_type 'application/x-plist'
+  content_type 'application/x-plist'
 
-{
-'Greeting' => "Hello, World",
-'Price' => 4.20,
-'FeatureXIsLaunched' => true
-}.to_plist
+  {
+    'Greeting' => "Hello, World",
+    'Price' => 4.20,
+    'FeatureXIsLaunched' => true
+  }.to_plist
 end
 ```
 
@@ -58,10 +58,10 @@ import plistlib
 
 def property_list(request):
 plist = {
-'Greeting': "Hello, World",
-'Price': 4.20,
-'FeatureXIsLaunched': True,
-'Status': 1
+    'Greeting': "Hello, World",
+    'Price': 4.20,
+    'FeatureXIsLaunched': True,
+    'Status': 1
 }
 
 return HttpResponse(plistlib.writePlistToString(plist))
@@ -81,10 +81,10 @@ var app = express()
 app.get("/", function(request, response) {
 response.send(plist.build(
 {
-'Greeting': "Hello, World",
-'Price': 4.20,
-'FeatureXIsLaunched': true,
-'Status': 1
+    'Greeting': "Hello, World",
+    'Price': 4.20,
+    'FeatureXIsLaunched': true,
+    'Status': 1
 }
 ).toString())
 })
