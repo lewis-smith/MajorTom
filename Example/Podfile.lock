@@ -1,0 +1,16 @@
+PODS:
+  - MajorTom (0.1.0)
+
+DEPENDENCIES:
+  - MajorTom (from `../`)
+
+EXTERNAL SOURCES:
+  MajorTom:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MajorTom: a42321ce38c87736225f93cac7e24fbd545d1eaf
+
+PODFILE CHECKSUM: 5233959436e21c7d06416b2960198dad820618b3
+
+COCOAPODS: 1.2.1

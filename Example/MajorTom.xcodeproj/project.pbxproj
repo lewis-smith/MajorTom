@@ -8,19 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		57614FBA301B70ECC202172D /* Pods_MajorTom_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01312172D8BD5DDC9D58682C /* Pods_MajorTom_Tests.framework */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		F6E7F3D91ED97ABF00D7A242 /* MajorTom.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E7F3D81ED97ABF00D7A242 /* MajorTom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01312172D8BD5DDC9D58682C /* Pods_MajorTom_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MajorTom_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		28A22BF19CD64DE6D7FBC8E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* MajorTom_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MajorTom_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		86131B8E24C6CB24003B9087 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		28A22BF19CD64DE6D7FBC8E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		607FACE51AFB9204008FA782 /* MajorTom_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MajorTom_Tests.xctest; path = "/Users/lewissmith/code/MajorTom/Example/build/Debug-iphoneos/MajorTom_Tests.xctest"; sourceTree = "<absolute>"; };
+		86131B8E24C6CB24003B9087 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A42FC7FF66F26B5018A91C6E /* Pods-MajorTom_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MajorTom_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MajorTom_Tests/Pods-MajorTom_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C50A5000086F04B870DD8424 /* MajorTom.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MajorTom.podspec; path = ../MajorTom.podspec; sourceTree = "<group>"; };
+		C50A5000086F04B870DD8424 /* MajorTom.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MajorTom.podspec; path = ../MajorTom.podspec; sourceTree = "<group>"; };
 		DAAF59C2030BE104248A0D0F /* Pods-MajorTom_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MajorTom_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MajorTom_Tests/Pods-MajorTom_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6E7F3D81ED97ABF00D7A242 /* MajorTom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MajorTom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,37 +37,11 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				F6E7F3D71ED97AB200D7A242 /* Classes */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACE81AFB9204008FA782 /* Tests */,
-				607FACD11AFB9204008FA782 /* Products */,
 				F38FE378E6863952BC14B1F5 /* Pods */,
 				CF2F75C4FE4ACDD92621F99A /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		607FACD11AFB9204008FA782 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				607FACE51AFB9204008FA782 /* MajorTom_Tests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
@@ -96,6 +69,14 @@
 				A42FC7FF66F26B5018A91C6E /* Pods-MajorTom_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6E7F3D71ED97AB200D7A242 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F6E7F3D81ED97ABF00D7A242 /* MajorTom.swift */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,10 +112,6 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0820;
@@ -151,7 +128,7 @@
 				Base,
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
-			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
+			productRefGroup = 607FACC71AFB9204008FA782;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -223,7 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				F6E7F3D91ED97ABF00D7A242 /* MajorTom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

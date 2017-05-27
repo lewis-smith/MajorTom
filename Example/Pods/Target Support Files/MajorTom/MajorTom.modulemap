@@ -1,0 +1,6 @@
+framework module MajorTom {
+  umbrella header "MajorTom-umbrella.h"
+
+  export *
+  module * { export * }
+}
