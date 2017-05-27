@@ -107,11 +107,3 @@ MajorTom is available under the MIT license. See the LICENSE file for more info.
 
 ## Apps
 [World Time Widget](https://itunes.apple.com/us/app/world-clock-time-widget-for-timezones/id912698955?mt=8)
-
-## Author
-
-Lewis Smith, lewis@lasmit.com
-
-## License
-
-MajorTom is available under the MIT license. See the LICENSE file for more info.
