@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension UserDefaults {
+public extension UserDefaults {
     
     func registerDefaultsWithURL(url: URL) {
         self.registerDefaultsWithURL(url: url, success: nil, failure: nil)
